@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wardog</title>
+    </head>
+    <body onload="check()">
+		<h1>Wardog</h1>
+		<br>
+		<script type="text/javascript">
+function check() {
+    // Prompt user for the password ...
+    pwd = prompt('Enter password before continuing','');
+    // ... then set the browser location. 
+    location.href = escape(pwd) + '.html';
+}
+</script>
+
+    </body>
+</html>
